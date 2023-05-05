@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box
+    
+}
+body{
+    margin: 0;
+}
+header{
+    background-color:#FFA216 ;
+    pointer-events: fixed;
+    width: 100%;
+    height: 70px;
+
+
+}
+main{
+    height: calc(100% - var(--header-height) - var);
+}
