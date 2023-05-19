@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>E-Commerce Shop</title>
-  </head>
-  <body>
-    <header>
-      <div class="wrapper header-wrapper">
-        <div class="logo"></div>
-        <div class="navigation-menu">
-          <a href="">Contact us</a>
-        </div>
-      </div>
-    </header>
-    <main class="wrapper">
-      <h1>Click&Buy</h1>
-      <section class="section hero-section">
-        <h2>Main</h2>
-        <div class="hero-image"></div>
-      </section>
-      <section class="section top-sellers-section">
-        <h2>Top sellers</h2>
-        <img src="/images/Rectangle 10 (1).jpg" alt="image 1">
-        <img src="/images/Rectangle 24.jpg" alt="image 2">
-        <img src="/images/Rectangle 17.jpg" alt="image 3">
-      </section>
-      <section class="section product-details-section">
-        <h2>Product details</h2>
-        <img src="/images/Rectangle 12.jpg" alt="image 1">
-        <h3>Microsoft Surface Laptop 4</h3>
-        <p class="description">
-          Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.
-        </p>
-        <button>Buy</button>      
-      </section>
-      <section class="section contact-form">
-        <h2>Contact us</h2>
-        <input type="text" placeholder="Your name" />
-        <input type="email" placeholder="Your email" />
-        <textarea placeholder="Your message"></textarea>
-        <button>Send</button>
-      </section>
-    </main>
-    <footer>
-      <div class="wrapper">
-        Contact us
-      </div>
-    </footer>  
-  </body>
-  </html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-commerce Sales Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+		<div class="logo"></div>
+		<h1>JGC Furnitures</h1>
+		<ul>
+			<li><a href="#top-sellers">Top Sellers</a></li>
+			<li><a href="#Premium-Products">Premium Products</a></li>
+			<li><a href="#contact-form">Contact Us</a></li>
+		</ul>
+	</header>
+
+	<section class="top-sellers" id="top-sellers">
+		<h1>Top Sellers</h1>
+		<div class="product">
+			<img src="/images/Rectangle 26.png" alt="Product 1">
+			<h2>Serenity Living room Set</h2>
+			<p>Introducing the "Serenity" living room set - a sleek and modern design featuring a 3-seater and 2-seater white couch with clean lines and comfortable cushions. The set includes a squared shaped center table, made from high-quality materials and finished in white for a cohesive look. Elevate your living space with the "Serenity" set.</p>
+			<button>Buy Now</button>
+		</div>
+		<div class="product">
+			<img src="/images/Rectangle 18.jpg" alt="Product 2">
+			<h2>Dream Family Bed and Mattress</h2>
+			<p>Introducing the "Dream Family" bed and mattress, available in king or queen size. The spacious sleeping surface and plush mattress provide optimal support and comfort for the whole family. Experience the ultimate in comfort and luxury with this exquisite bed set.</p>
+			<button>Buy Now</button>
+		</div>
+		<div class="product">
+			<img src="/images/Rectangle 17.jpg" alt="Product 3">
+			<h2>Marble Orbit Dining Set </h2>
+			<p>Introducing the Marble Orbit Dinning Set. The round center table features a smooth marble-like surface, reminiscent of a planetary orbit. The five white curvy chairs, with their sleek and modern design, add a touch of elegance and sophistication to any space. The set is perfect for both formal and casual settings, from a cozy living room to a modern office. The table measures 36 inches in diameter, while each chair measures 20 inches in width, 18 inches in depth, and 32 inches in height. Get ready to elevate your decor with this stunning furniture set.</p>
+			<button>Buy Now</button>
+		</div>
+	</section>
+	<h1>Premuim Products</h1>
+	<section class="premium-products" id="Premium-Products">
+		<div class="product">
+			<img src="/images/Rectangle 3.jpg" alt="Product 1">
+			<h2>Bamboo Breeze</h2>
+			<p>Introducing the "Bamboo Breeze" 6-Piece Dining Set, featuring a beautiful brown round table and six matching chairs with a unique bamboo-like woven net design at the back. This set provides a comfortable and stylish seating option for family meals, dinner parties, and gatherings with friends. The table has a diameter of 48 inches, providing ample space for six people to dine comfortably. The chairs have a seat height of 18 inches and dimensions of 21 x 22 x 36 inches. The "Bamboo Breeze" dining set adds a touch of natural elegance to any dining room or kitchen.</p>
+			<button>Buy Now</button>
+		</div>
+		<div class="product">
+			<img src="/images/Rectangle 12.jpg" alt="Product 2">
+			<h2>Elevate Brown Kitchen Stool</h2>
+			<p>The brown 3 kitchen high stool is a stylish and functional piece of furniture. It features a wooden frame, a padded seat and backrest upholstered in dark brown fabric. At 3 feet tall, it's ideal for use at a kitchen island or high countertop. The minimalist design and durable construction make it a versatile addition to any kitchen</p>
+			<button>Buy Now</button>
+		</div>
+		<div class="product">
+			<img src="/images/Rectangle 8.jpg" alt="Product 3">
+			<h2>Solo Set</h2>
+			<p>The "SoloSet" is a stylish and minimalist furniture set designed for one person. It consists of a black single chair with a curved backrest, upholstered in durable leather or a similar material, and supported by sturdy metal or wooden legs. The set also includes a small round table with a compact and lightweight design, featuring a durable surface and slender metal or wooden legs. The "SoloSet" creates a comfortable and inviting space for reading, working, or relaxing, and is perfect for small apartments, home offices, or any living space.</p>
+			<button>Buy Now</button>
+		</div>
+	</section>
+	<section class="contact-form" id="contact-form">
+		<h2>Contact Us</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input			type="text"
+			id="name"
+			name="name"
+			required
+		>
+		<label for="email">Email:</label>
+		<input
+			type="email"
+			id="email"
+			name="email"
+			required
+		>
+		<label for="message">Message:</label>
+		<textarea
+			id="message"
+			name="message"
+			rows="5"
+			required
+		></textarea>
+		<button type="submit">Send</button>
+	</form>
+</section>
+<footer>
+	<ul>
+		<li>Follow us on:<span class="twitterIcon"> <ion-icon name="logo-twitter"></ion-icon> </span>@jgcfunitures</li>
+		<li class="home"><a href="#">Home</a></li>
+	</ul>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></body>
+</html>		
+  
